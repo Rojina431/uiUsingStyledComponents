@@ -4,10 +4,11 @@ export const StyledLeft = styled.div`
 flex:0.15;
 margin-top: 20px;
 border-radius: 0.3rem;
+margin-bottom: 20px;
 `
 
 export const StyledUpperBox = styled(StyledLeft)`
-height:20vh;
+height:fit-content;
 background-color: #f8f9fa;
 `
 export const StyledPhotoSettings = styled(StyledUpperBox)`
@@ -34,6 +35,8 @@ export const StyledLowerBox = styled(StyledLeft)`
 background-color: #f8f9fa;
 margin-top: 10px;
 padding-left: 10px;
+padding-bottom:20px;
 text-align: left;
-height:70vh;
+height:fit-content;
+min-width:fit-content
 `

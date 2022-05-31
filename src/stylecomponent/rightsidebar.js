@@ -2,8 +2,9 @@
 import styled from 'styled-components';
 
 export const StyledRightSidebar = styled.div`
- flex:0.25;
+ flex:0.35;
  border-radius: 0.3rem;
+ 
 `
 export const StyledRightTitle = styled.div`
  display:flex;

@@ -1,4 +1,4 @@
-import { StyledBodyCard, StyledMiddleBody, StyledMiddleTitle, StyledBodyImg, StyledImgFooter, StyledPills, StyledEngagement, StyledEngage, StyledButton } from "../../stylecomponent/bodystyle"
+import { StyledBodyCard, StyledMiddleBody, StyledMiddleTitle, StyledBodyImg, StyledImgFooter, StyledPills, StyledEngagement, StyledEngage, StyledButton, Styledheadlines, StyledFooterHeadline } from "../../stylecomponent/bodystyle"
 import {BsEye, BsShare} from 'react-icons/bs'
 import {VscComment} from 'react-icons/vsc'
 import {IoShieldCheckmark} from 'react-icons/io5'
@@ -19,10 +19,11 @@ function HomePage() {
                     <StyledEngage><BsShare/> 20k</StyledEngage>
                      </StyledEngagement>
                 </StyledImgFooter>
-                <StyledImgFooter>
-                    <h6 style={{flex:0.6, textAlign:"left"}}>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to. </h6>
+                <br/>
+                <StyledFooterHeadline>
+                    <Styledheadlines>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to. </Styledheadlines>
                     <StyledButton><IoShieldCheckmark/> Saved to podcast</StyledButton>
-                </StyledImgFooter>
+                </StyledFooterHeadline>
             </StyledBodyCard>
         </StyledMiddleBody>
     )

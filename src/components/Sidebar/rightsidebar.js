@@ -17,8 +17,8 @@ export function Sidebar({goal1, name1, image1, goal2, name2, image2}) {
       <StyledEachbox>
          <Sidebarcontent goal={goal1} name={name1} image={image1}/>
          <StyledTime>
-             <p style={{flex:'0.1'}}>VS</p>
-             <p style={{flex:'0.8'}}>Full Time</p>
+             <p style={{flex:'0.09'}}>VS</p>
+             <p style={{flex:'0.9'}}>Full Time</p>
          </StyledTime>
          <Sidebarcontent goal={goal2} name={name2} image={image2}/>
          <StyledText>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to. </StyledText>
@@ -49,7 +49,7 @@ function RightSideBar() {
                 goal2='1' 
                 name2="Real Madrid" 
                 image2="https://w7.pngwing.com/pngs/1/207/png-transparent-history-of-real-madrid-c-f-logo-football-football-emblem-logo-football-team-thumbnail.png"/>
-                <br/>
+                
                 <br/>
                 <StyledRightTitle>
                 <h6>Political News</h6>
